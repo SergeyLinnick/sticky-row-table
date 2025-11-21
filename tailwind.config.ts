@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        table: {
+          header: "hsl(var(--table-header))",
+          "row-hover": "hsl(var(--table-row-hover))",
+        },
+        archived: {
+          badge: "hsl(var(--archived-badge))",
+          "badge-bg": "hsl(var(--archived-badge-bg))",
+        },
+        drag: {
+          handle: "hsl(var(--drag-handle))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
