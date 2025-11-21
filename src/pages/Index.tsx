@@ -53,6 +53,27 @@ const initialData: FieldData[] = [
     defaultValue: "G2",
     isArchived: true,
   },
+  {
+    id: "6",
+    label: "Old Field",
+    type: "Number Input",
+    defaultValue: "100",
+    isArchived: true,
+  },
+  {
+    id: "7",
+    label: "Legacy Data",
+    type: "Dropdown",
+    defaultValue: "Option A",
+    isArchived: true,
+  },
+  {
+    id: "8",
+    label: "Deprecated Field",
+    type: "Checkbox",
+    defaultValue: "true",
+    isArchived: true,
+  },
 ];
 
 const Index = () => {
